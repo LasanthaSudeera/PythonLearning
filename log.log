@@ -1,0 +1,16 @@
+CRITICAL:root:Critical
+ERROR:root:Error
+WARNING:root:Warning
+INFO:root:Info
+DEBUG:root:Debug
+CRITICAL:root:Critical
+ERROR:root:Error
+WARNING:root:Warning
+INFO:root:Info
+DEBUG:root:Debug
+CRITICAL:root:Critical
+ERROR:root:Error
+WARNING:root:Warning
+INFO:root:Info
+DEBUG:root:Debug
+ERROR:root:You cannot divide a number by zero
