@@ -26,12 +26,12 @@ class Trader:
                 win = currentAmount * 1.5
                 self.deposit += win
                 if self.showTrades:
-                    print(i, ")", " +%.2f" % win)
+                    print(i, ")", " +%.2f" % win, " Bal: %.2f" % self.deposit)
             else:
                 # Lost Trade
                 self.deposit -= currentAmount
                 if self.showTrades:
-                    print(i, ")", " -%.2f" % currentAmount)
+                    print(i, ")", " -%.2f" % currentAmount, " Bal: %.2f" % self.deposit)
 
         print("\nOriginal Deposit: %.2f" % originalDeposit)
         print("Current Bal: %.2f" % self.deposit)
