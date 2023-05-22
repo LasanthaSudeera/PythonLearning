@@ -1,0 +1,1 @@
+# Creating a virtual env python3 -m venv ./directory/venv
